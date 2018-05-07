@@ -1,7 +1,24 @@
-.gallery {
+body {
+    width: 100%;
+}
+header {
+   
+}
+header nav li {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    padding: 0px 20px;
+    margin: 0px 20px;
     
 }
-
-img {
-    width: 50%; 
-    }
+a {
+    text-decoration: none;
+}
+section img {
+    clear: both;
+    width:33%;
+   // margin: 0% 50%;
+    display: center;
+    position: relative;
+}
