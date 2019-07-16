@@ -1,21 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Image Gallery</title>
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    <section id="gallery" class="gallery">
-        <img src="Images/pexels-photo-248797.jpeg" alt="Image1">
-        <img src="Images/pexels-photo-371633.jpeg" alt="Image2">
-        <img src="Images/pexels-photo-414171.jpeg" alt="Image3">
-        <img src="Images/pexels-photo-1002812.jpeg" alt="Image4">
-        <img src="Images/pexels-photo-87739.jpeg" alt="Image5">
-        <img src="Images/pexels-photo-545968.jpeg" alt="Image6">
-    </section>
-    <footer></footer>
-    <script src="js/main.js">
-    </script>
+  <!-- Images used to open the lightbox -->
+  <section id="gallery" class="row">
+    <div class="column">
+      <img src="Images/pexels-photo-248797.jpeg" class="hover-shadow" alt="Image1">
+    </div>
+    <div class="column">
+      <img src="Images/pexels-photo-371633.jpeg" class="hover-shadow" alt="Image2">
+    </div>
+    <div class="column">
+      <img src="Images/pexels-photo-414171.jpeg" class="hover-shadow" alt="Image3">
+    </div>
+    <div class="column">
+      <img src="Images/pexels-photo-1002812.jpeg" class="hover-shadow" alt="Image4">
+    </div>
+    <div class="column">
+      <img src="Images/pexels-photo-87739.jpeg" class="hover-shadow" alt="Image5">
+    </div>
+    <div class="column">
+      <img src="Images/pexels-photo-545968.jpeg" class="hover-shadow" alt="Image6">
+    </div>
+  </section>
+
+
+  <!-- The Modal/Lightbox 
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="Images/lightbox/pexels-photo-248797.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="Images/lightbox/pexels-photo-371633.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="Images/lightbox/pexels-photo-414171.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="Images/lightbox/pexels-photo-1002812.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="Images/lightbox/pexels-photo-87739.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="Images/lightbox/pexels-photo-545968.jpeg" style="width:100%">
+      </div>-->
+
+      <!-- Next/previous controls 
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+-->
+      <!-- Caption text 
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+-->
+      <!-- Thumbnail image controls 
+      <div class="column">
+        <img class="demo" src="Images/pexels-photo-248797.jpeg" onclick="currentSlide(1)" alt="Image1">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="Images/pexels-photo-371633.jpeg" onclick="currentSlide(2)" alt="Image2">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="Images/pexels-photo-414171.jpeg" onclick="currentSlide(3)" alt="Image3">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="Images/pexels-photo-1002812.jpeg" onclick="currentSlide(4)" alt="Image4">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="Images/pexels-photo-87739.jpeg" onclick="currentSlide(4)" alt="Image5">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="Images/pexels-photo-545968.jpeg" onclick="currentSlide(4)" alt="Image6">
+      </div>
+    </div>
+  </div>-->
+  <footer></footer>
+  <script src="dist/jQuery v3.4.1.min.js"></script>
+  <script src="dist/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
