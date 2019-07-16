@@ -19,10 +19,9 @@ section {
   
   
   width: 96%;
-  height: 95vh;
+  height: 91vh;
   margin: 0% 2%;
   padding: 0;
-  border: 3px solid #ccc;
   /*align-items: center;
   justify-content: center;
   display: flex;
@@ -36,14 +35,12 @@ section div {
   padding: 0;
   margin: 2vh 2%;
   align-items: center;
-  border: 2px solid black;
 }
 
 .imgg {
   width: auto;
   height: auto;
   padding: 0;
-  border: 1px solid #111;
   margin: 5px;
   transition: ease-in-out;
   transition: 0.5s;
@@ -66,14 +63,18 @@ section div {
 */
 footer {
   width: 100%;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  padding: .5rem 0;
+  color: #fff;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
   text-align: center;
 }
 
-@media (min-width: 768px) and (max-width: 1150px) {
+
+
+@media (min-width: 769px) and (max-width: 1150px) {
   .imgg {
-    width: 40%;
+    width: 30%;
     /*height: auto;
     padding: 0;
     border: 1px solid #111;
@@ -85,9 +86,9 @@ footer {
   
 }
 
-@media (min-width: 580px) and (max-width: 768px) {
+@media (min-width: 581px) and (max-width: 768px) {
   .imgg {
-    width: 60%;
+    width: 40%;
     /*height: auto;
     padding: 0;
     border: 1px solid #111;
@@ -101,7 +102,7 @@ footer {
 
 @media (min-width: 180px) and (max-width: 580px) {
   .imgg {
-    width: 100%;
+    width: 90%;
     /*height: auto;
     padding: 0;
     border: 1px solid #111;

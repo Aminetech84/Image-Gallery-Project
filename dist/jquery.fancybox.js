@@ -40,7 +40,7 @@
     closeExisting: false,
 
     // Enable infinite gallery navigation
-    loop: false,
+    loop: true,
 
     // Horizontal space between slides
     gutter: 50,
@@ -74,7 +74,7 @@
       "zoom",
       //"share",
       "slideShow",
-      //"fullScreen",
+      "fullScreen",
       //"download",
       "thumbs",
       "close"

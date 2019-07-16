@@ -1,3 +1,27 @@
+$(document).ready(function () {
+  $('[data-fancybox="gallery"]').fancybox({
+    slideShow: {
+      autoStart: false,
+
+    },
+    buttons: [
+      "zoom",
+      //"share",
+      "slideShow",
+      "fullScreen",
+      //"download",
+      "thumbs",
+      "close"
+    ],
+    loop: true,
+  });
+});
+
+
+
+
+
+
 /*
 
 // Open the Modal
