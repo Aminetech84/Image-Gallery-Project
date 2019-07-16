@@ -27,8 +27,6 @@ section img {
 section img:hover {
   border-radius: 5%;
   transform: scale(1.1);
-
-
   box-shadow: 0 0 15px #000;
 }
 
