@@ -1,4 +1,3 @@
+# Image Gallery with awesome slideshow
 
-Image Gallery Webpage
-
- https://aminetech84.github.io/ImageGalleryProject/
+ [](https://aminetech84.github.io/ImageGalleryProject/)
